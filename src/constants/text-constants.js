@@ -9,3 +9,6 @@ export const formatAmount = (amount) => {
 }
 export const REQUEST_MONEY = 'Request money'
 export const SEND_MONEY = 'Send money'
+export const ALL_TRANSACTIONS = 'All transactions'
+export const SORT_BY = 'Sort by: '
+export const DROPDOWN = 'Recent'

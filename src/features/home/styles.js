@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native'
-import { COLOR_000000, COLOR_010A43, COLOR_17288E, COLOR_212A6B, COLOR_426DDC, COLOR_E7E4E4, COLOR_EEEEEE, COLOR_FAFAFA, COLOR_FFFFFF } from '../../constants/color-constants'
+import { COLOR_000000, COLOR_010A43, COLOR_17288E, COLOR_212A6B, COLOR_426DDC, COLOR_4E589F, COLOR_DDD9D9, COLOR_E7E4E4, COLOR_EEEEEE, COLOR_FAFAFA, COLOR_FFFFFF } from '../../constants/color-constants'
 import { scaleFont, scaleSize } from '../../utils/scales'
 
 const styles = StyleSheet.create({
@@ -19,8 +19,8 @@ const styles = StyleSheet.create({
         alignItems: 'center',
     },
     navButton: {
-       width: scaleSize(48),
-       height: scaleSize(48)
+        width: scaleSize(48),
+        height: scaleSize(48)
     },
     greeting: {
         marginLeft: scaleSize(20),

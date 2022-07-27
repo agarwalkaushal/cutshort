@@ -4,6 +4,7 @@ import { NAV_BUTTON } from '../../assets/images';
 import Button from '../../common/components/button'; import Modal from '../../common/components/modal';
 import { COLOR_010A43, COLOR_464E8A } from '../../constants/color-constants';
 import { ADD_MONEY, BALANCE_IS, formatAmount, REQUEST_MONEY, SEND_MONEY, USER_GREETING } from '../../constants/text-constants';
+import Transactions from './components/transactions';
 import styles from './styles';
 
 export default function Home({ navigation }) {
@@ -31,7 +32,7 @@ export default function Home({ navigation }) {
                 <Button text={SEND_MONEY} onPress={() => { }} textColor={COLOR_464E8A} borderColor={COLOR_464E8A} />
             </View>
             <Modal>
-                {/* TODO */}
+                <Transactions />
             </Modal>
         </View>
     );

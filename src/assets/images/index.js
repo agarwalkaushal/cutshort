@@ -4,3 +4,4 @@
 //Add jpg/png/jpeg imports here
 export const SPLASH_BACKGROUND = require('./splash_one.png');
 export const NAV_BUTTON = require('./nav.png');
+export const DOWN_CHEVRON = require('./down-chevron.png')

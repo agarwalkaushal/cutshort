@@ -10,3 +10,4 @@ export const COLOR_EEEEEE = '#EEEEEE';
 export const COLOR_464E8A = '#464E8A';
 export const COLOR_10194E = '#10194E';
 export const COLOR_4E589F = '#4E589F';
+export const COLOR_DDD9D9 = '#DDD9D9';
