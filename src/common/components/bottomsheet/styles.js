@@ -4,6 +4,7 @@ import { scaleSize } from '../../../utils/scales'
 
 const styles = StyleSheet.create({
     container: {
+        flex: 1,
         borderTopRightRadius: scaleSize(40),
         borderTopLeftRadius: scaleSize(40),
         paddingVertical: scaleSize(16),
