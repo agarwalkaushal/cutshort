@@ -5,6 +5,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import SplashScreen from './src/features/splash-screen';
 import Home from './src/features/home';
+import SendMoney from './src/features/send-money';
 
 const Stack = createNativeStackNavigator()
 
@@ -16,6 +17,7 @@ const App: () => Node = () => {
         <Stack.Navigator screenOptions={noHeaderScreenOption}>
           <Stack.Screen name="SplashScreen" component={SplashScreen} />
           <Stack.Screen name="Home" component={Home} />
+          <Stack.Screen name="SendMoney" component={SendMoney} />
         </Stack.Navigator>
       </NavigationContainer>
     </SafeAreaProvider>

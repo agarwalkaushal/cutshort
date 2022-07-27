@@ -16,3 +16,5 @@ export const COLOR_858EC5 = '#858EC5';
 export const COLOR_1DC7AC = '#1DC7AC';
 export const COLOR_FAAD39 = '#FAAD39';
 export const COLOR_FE4A54 = '#FE4A54';
+export const COLOR_D7C9C9 = '#D7C9C9';
+export const COLOR_FF2E63 = '#FF2E63';
