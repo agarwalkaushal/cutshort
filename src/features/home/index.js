@@ -29,7 +29,7 @@ export default function Home({ navigation }) {
                 <Text style={styles.amountText}>{formatAmount(200000)}</Text>
             </View>
             <View style={styles.buttonsContainer}>
-                <Button text={REQUEST_MONEY} onPress={() => { }} textColor={COLOR_464E8A} borderColor={COLOR_464E8A} />
+                <Button text={REQUEST_MONEY} onPress={() => navigation.navigate('RequestMoney')} textColor={COLOR_464E8A} borderColor={COLOR_464E8A} />
                 <Button text={SEND_MONEY} onPress={() => navigation.navigate('SendMoney')} textColor={COLOR_464E8A} borderColor={COLOR_464E8A} />
             </View>
             <Bottomsheet>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View, TouchableOpacity, Image, FlatList } from 'react-native';
+import { Text, View, Image, FlatList } from 'react-native';
 import { DOWN_CHEVRON, FAILED, RECEIVED, SENT } from '../../../../assets/images';
 import { COLOR_10194E, COLOR_192259, COLOR_1DC7AC, COLOR_FAAD39, COLOR_FE4A54 } from '../../../../constants/color-constants';
 import { ALL_TRANSACTIONS, DROPDOWN, formatAmount, SORT_BY } from '../../../../constants/text-constants';

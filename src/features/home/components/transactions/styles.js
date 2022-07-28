@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
         borderRadius: scaleSize(20),
         flexDirection: 'row',
         alignItems: 'center',
-        alignSelf: 'flex-start' //KEY
+        alignSelf: 'flex-start'
     },
     tagText: {
         marginLeft: scaleSize(5),

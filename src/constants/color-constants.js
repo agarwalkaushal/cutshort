@@ -1,5 +1,5 @@
-export const COLOR_FFFFFF = '#FFFFFF'; //white
-export const COLOR_000000 = '#000000'; //black
+export const COLOR_FFFFFF = '#FFFFFF';
+export const COLOR_000000 = '#000000';
 export const COLOR_FAFAFA = '#FAFAFA';
 export const COLOR_17288E = '#17288E';
 export const COLOR_010A43 = '#010A43';
@@ -18,3 +18,4 @@ export const COLOR_FAAD39 = '#FAAD39';
 export const COLOR_FE4A54 = '#FE4A54';
 export const COLOR_D7C9C9 = '#D7C9C9';
 export const COLOR_FF2E63 = '#FF2E63';
+export const COLOR_1DC76B = '#1DC76B';
