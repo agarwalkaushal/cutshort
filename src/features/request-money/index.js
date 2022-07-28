@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { FlatList, Image, ImageBackground, ScrollView, Text, TextInput, TouchableOpacity, View } from 'react-native';
+import { FlatList, Image, ImageBackground, ScrollView, StatusBar, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import { CIRCLES, LEFT_CHEVRON } from '../../assets/images';
 import Bottomsheet from '../../common/components/bottomsheet';
 import Button from '../../common/components/button';
-import { COLOR_1DC7AC, COLOR_464E8A, COLOR_FF2E63, COLOR_FFFFFF } from '../../constants/color-constants';
+import { COLOR_010A43, COLOR_1DC7AC, COLOR_464E8A, COLOR_FF2E63, COLOR_FFFFFF } from '../../constants/color-constants';
 import { BACK, SEND_MONEY } from '../../constants/text-constants';
 import { scaleSize, WINDOW_WIDTH } from '../../utils/scales';
 import styles from './styles';
@@ -85,6 +85,7 @@ export default function RequestMoney({ navigation }) {
 
     return (
         <View style={styles.container}>
+            <StatusBar backgroundColor={COLOR_010A43} barStyle="light-content"/>
             <View style={styles.header}>
                 <TouchableOpacity style={styles.subHeader} onPress={backPress}>
                     <Image style={styles.navButton} source={LEFT_CHEVRON} />

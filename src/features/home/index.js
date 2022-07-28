@@ -12,7 +12,7 @@ export default function Home({ navigation }) {
 
     return (
         <View style={styles.container}>
-            <StatusBar backgroundColor={COLOR_010A43} />
+            <StatusBar backgroundColor={COLOR_010A43} barStyle="light-content"/>
             <View style={styles.header}>
                 <View style={styles.subHeader}>
                     <TouchableOpacity>

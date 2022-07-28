@@ -1,8 +1,8 @@
 import React from 'react';
-import { Image, ImageBackground, Text, TouchableOpacity, View } from 'react-native';
+import { Image, ImageBackground, StatusBar, Text, TouchableOpacity, View } from 'react-native';
 import { LEFT_CHEVRON, SEND_MONEY_BG } from '../../assets/images';
 import Button from '../../common/components/button';
-import { COLOR_464E8A, COLOR_FF2E63, COLOR_FFFFFF } from '../../constants/color-constants';
+import { COLOR_010A43, COLOR_464E8A, COLOR_FF2E63, COLOR_FFFFFF } from '../../constants/color-constants';
 import { BACK, DONT_MONEY, formatAmount, NEW_REQUEST, REQUESTING_FOR, SEND_MONEY } from '../../constants/text-constants';
 import { scaleSize } from '../../utils/scales';
 import styles from './styles';
@@ -15,6 +15,7 @@ export default function SendMoney({ navigation }) {
 
     return (
         <View style={styles.container}>
+            <StatusBar backgroundColor={COLOR_010A43} barStyle="light-content"/>
             <ImageBackground source={SEND_MONEY_BG} style={styles.imageBg}>
                 <View style={styles.header}>
                     <TouchableOpacity style={styles.subHeader} onPress={backPress}>
